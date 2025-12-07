@@ -8,10 +8,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 
 .lockscreen {
-    background-color: black;
+    background: rgba(20, 0, 0, 0.8);
+    box-shadow: 0 0 25px red;
+    color: #ff3b3b;
     height: 500px;
     width: 400px;
     border-radius: 10px;
@@ -19,10 +22,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 25px;
 }
 
 .time {
     font-family: "Orbitron";
-    color: white;
+    color: #ff3b3b;
+}
+
+.day {
+    font-size: large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
