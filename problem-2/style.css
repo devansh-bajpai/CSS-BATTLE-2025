@@ -1,100 +1,114 @@
 * {
-    margin: 0%;
-    padding: 0%;
+  margin: 0%;
+  padding: 0%;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  user-select: none;
 }
 
 .idcard {
-    width: 35%;
-    height: 350px;
-    background-color: blue;
-    border-radius: 2.5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 10px;
+  width: 35%;
+  height: 350px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  background: linear-gradient(185deg, #8cb2f77b, #125de0d6);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.8px);
+  -webkit-backdrop-filter: blur(9.8px);
 }
 
 .coderLogo {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    border-radius: 50%; 
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .coderLogo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block; 
-    object-position: 40% center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  object-position: 40% center;
 }
 
 .coderName {
-    margin-top: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .coderTitle {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .github {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .githubLogo {
-    height: 24px;
-    width: 24px;
-    margin: 2px;
+  height: 20px;
+  width: 20px;
+  margin: 2px;
 }
 
 .username {
-    margin: 2px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+  margin: 2px;
+    font-family: "Source Code Pro";
+    color: rgb(66, 66, 66);
+  font-size: 13px;
 }
 
-
 .stats {
-    width: 80%;
-    background-color: yellow;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+    margin-top: 10px;
+  width: 80%;
+  /* background-color: yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Nunito";
 }
 
 .stat-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    padding: 10px 20px 10px 20px;
-    border: 1px solid black;
-    border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 10px 20px 10px 20px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background: linear-gradient(185deg, #8cb2f71b, #125de028);
+}
+
+.stat-box:hover {
+    background: linear-gradient(185deg, #8cb2f748, #125de051);
 }
 
 .stacks {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
+  font-family: "Nunito";
 }
 
 .stack {
-    border: 1px solid black;
-    border-radius: 50%;
-    margin: 10px;
-    padding: 10px;
+  /* border: 1px solid black; */
+  background: linear-gradient(185deg, #8cb2f748, #125de051);
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.stack:hover {
+    background: linear-gradient(185deg, #8cb2f76a, #125de079);
 }
