@@ -87,7 +87,9 @@ body {
   border-radius: 12px;
   background: rgba(255, 0, 0, 0.1);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
   gap: 10px;
   border: 1px solid rgba(255, 0, 0, 0.3);
 }
@@ -123,4 +125,16 @@ body {
 .btn:hover {
   transform: scale(1.2);
   text-shadow: 0 0 10px red;
+}
+
+.songPlayerDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.songLogo {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
 }
