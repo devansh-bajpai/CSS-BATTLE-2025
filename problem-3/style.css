@@ -22,7 +22,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 20px;
     font-size: 25px;
 }
 
@@ -34,4 +33,21 @@ body {
 .day {
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topbar {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.faceUnlock {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: dotted;
+    padding: 5px;
+    margin-bottom: 10px;
 }
