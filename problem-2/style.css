@@ -41,3 +41,47 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+.coderTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.github {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.githubLogo {
+    height: 24px;
+    width: 24px;
+    margin: 2px;
+}
+
+.username {
+    margin: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+
+.stats {
+    width: 80%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
