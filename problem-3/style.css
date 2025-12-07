@@ -1,6 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
+     user-select: none;
 }
 
 body {
@@ -50,4 +51,49 @@ body {
     border: dotted;
     padding: 5px;
     margin-bottom: 10px;
+}
+
+.musicPlayer {
+    width: 80%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(255, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.songInfo {
+  text-align: center;
+}
+
+.songName {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.artistName {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 22px;
+}
+
+.btn {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 10px red;
 }
