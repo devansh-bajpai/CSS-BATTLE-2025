@@ -40,7 +40,7 @@ body {
     width: 100%;
     height: 30px;
     border-radius: 10px 10px 0px 0px;
-    background-color: white;
+    /* background-color: white; */
     margin-bottom: 20px;
 
     display: flex;
@@ -57,7 +57,12 @@ body {
 }
 
 .battery {
-    
+    height: 30px;
+    width: 30px;
+}
+
+.imagesDiv {
+    margin-right: 10px;
 }
 
 .isp {
