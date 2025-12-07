@@ -138,3 +138,30 @@ body {
     width: 100px;
     border-radius: 10px;
 }
+
+
+.notification {
+    width: 80%;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 12px;
+  background: rgba(255, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+.notificationText1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.notificationText2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  opacity: 0.8;
+}
