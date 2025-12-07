@@ -3,3 +3,41 @@
     padding: 0%;
 }
 
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.idcard {
+    width: 35%;
+    height: 350px;
+    background-color: blue;
+    border-radius: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.coderLogo {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%; 
+}
+
+.coderLogo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+    object-position: 40% center;
+}
+
+.coderName {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
